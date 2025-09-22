@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-feature-settings: "kern" 1;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  .prose {
+    line-height: 1.6;
+  }
+  
+  .prose p {
+    margin-bottom: 1.2rem;
+  }
+  
+  .prose strong {
+    color: #722F37;
+    font-weight: 500;
+  }
+  
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .warm-gradient {
+    background: linear-gradient(135deg, #FDF6E3 0%, #F8C8DC 30%, #9CAF88 100%);
+  }
+}
