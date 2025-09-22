@@ -9,6 +9,7 @@ const Header = () => {
     { href: '#ceremonie', label: 'Cérémonie' },
     { href: '#reception', label: 'Réception' },
     { href: '#pratique', label: 'Pratique' },
+    { href: '#temoins', label: 'Témoins' },
   ];
 
   const scrollToSection = (href: string) => {
