@@ -1,5 +1,6 @@
 import React from 'react';
 import { Palette, Bed, Coffee, Gift } from 'lucide-react';
+import THEME_IMG from '../assets/pantone.webp';
 
 const Practical = () => {
   return (
@@ -38,6 +39,7 @@ const Practical = () => {
             <p className="text-charcoal leading-relaxed font-light">
               Notre mariage sera <strong className="text-bordeaux font-medium">festif et coloré !</strong> Choisissez votre couleur préférée pour votre tenue.
             </p>
+            <img src={THEME_IMG} alt="Thème" className="w-full h-auto mt-6" />
           </div>
 
           {/* Couchage */}
@@ -55,7 +57,7 @@ const Practical = () => {
               <li>• Dortoir lit simple</li>
             </ul>
             <div className="bg-bordeaux/15 rounded-xl p-5 mb-5 border border-bordeaux/20">
-              <p className="font-medium text-bordeaux text-lg mb-2">Prix : 35€ à 170€</p>
+              <p className="font-medium text-bordeaux text-lg mb-2">Prix d'une chambre ou d'un couchage : 40€ a 220€</p>
               <div className="space-y-1 text-charcoal/70 font-light text-sm">
                 <p>• Vendredi soir aussi possible</p>
                 <p>• Serviettes de douche incluses</p>
@@ -74,7 +76,7 @@ const Practical = () => {
               <div className="w-12 h-12 bg-bordeaux/20 rounded-full flex items-center justify-center">
                 <Coffee className="text-bordeaux" size={24} />
               </div>
-              <h3 className="font-montaga text-2xl text-charcoal font-light">Brunch</h3>
+              <h3 className="font-montaga text-2xl text-charcoal font-light">...brunchons tous ensemble.</h3>
             </div>
             <p className="text-sm text-bordeaux/70 mb-4 uppercase tracking-wider font-light">Dimanche retour</p>
             <p className="text-charcoal leading-relaxed font-light">
@@ -101,7 +103,7 @@ const Practical = () => {
               </div>
             </div>
             <p className="text-charcoal/70 mt-5 font-light">
-              Deux cagnottes sur place le jour J
+              Deux cagnottes sur place le jour J. À vous de choisir!
             </p>
           </div>
         </div>

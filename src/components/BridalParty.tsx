@@ -1,34 +1,35 @@
 import { Phone, Users } from 'lucide-react';
 import FABIEN_IMG from '../assets/fabien.webp';
+import AYMERIC_IMG from '../assets/aymeric.webp';
 
 const BridalParty = () => {
   const bridalParty = [
     {
       name: "Manon Corbel",
       role: "Témoin de la mariée",
-      phone: "+33 6 12 34 56 78",
+      phone: "+33 6 34 96 16 60",
       image: "https://images.unsplash.com/photo-1506863530036-1efeddceb993?q=80&w=1488&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       type: "bridesmaid"
     },
     {
       name: "Fabien Fernandes Alves",
       role: "Témoin du marié",
-      phone: "+33 6 98 76 54 32",
+      phone: "+33 6 52 07 82 01",
       image: FABIEN_IMG,
       type: "groomsman"
     },
     {
       name: "Marie Pineau",
       role: "Témoin de la mariée",
-      phone: "+33 6 98 76 54 32",
+      phone: "+33 6 45 90 24 68",
       image: "https://images.unsplash.com/photo-1551712640-7340258d5c87?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       type: "bridesmaid"
     },
     {
-      name: "Armand",
+      name: "Aymeric",
       role: "Témoin du marié",
-      phone: "+33 6 98 76 54 32",
-      image: "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      phone: "+33 6 21 81 65 19",
+      image: AYMERIC_IMG,
       type: "groomsman"
     }
   ];
@@ -96,14 +97,14 @@ const BridalParty = () => {
           ))}
         </div>
 
-        <div className="text-center mt-16">
+        {/* <div className="text-center mt-16">
           <div className="bg-blush/15 rounded-2xl p-8 max-w-2xl mx-auto border border-blush/20">
             <p className="text-charcoal/80 font-light leading-relaxed text-lg">
               Nos témoins sont là pour vous aider et répondre à toutes vos questions concernant le mariage. 
               N'hésitez pas à les contacter si vous avez besoin d'informations !
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

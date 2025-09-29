@@ -16,19 +16,13 @@ const Hero = () => {
       </div>
 
       <div className="relative z-10 max-w-4xl mx-auto text-white mt-16">
-        <div className="mb-8">
-          <p className="text-sm md:text-base uppercase tracking-[0.3em] mb-6 opacity-90 font-light">
-            Nous avons l'honneur de vous inviter
-          </p>
-        </div>
-
-        <h1 className="font-montaga text-5xl md:text-7xl lg:text-8xl mb-8 leading-none font-light">
-          Nous nous marions !
+        <h1 className="font-montaga text-3xl md:text-4xl lg:text-4xl mb-8 leading-none font-light">
+          Nous avons l'honneur de vous annoncer notre mariage
         </h1>
-        <h2 className="font-montaga text-4xl md:text-5xl lg:text-6xl mb-12 tracking-wide font-light">
+        <h2 className="font-montaga text-6xl md:text-7xl lg:text-8xl mb-12 tracking-wide font-light">
           Léa & Quentin
         </h2>
-        
+
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-12 text-white/95">
           <div className="flex items-center gap-3 bg-white/15 backdrop-blur-md px-8 py-4 rounded-full border border-white/30">
             <Calendar className="text-white" size={18} />

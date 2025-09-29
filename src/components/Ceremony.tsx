@@ -93,26 +93,26 @@ const Ceremony = () => {
             {/* Meeting time */}
             <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-sage/20">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-12 h-12 bg-sage/20 rounded-full flex items-center justify-center">
-                  <Church className="text-sage" size={24} />
+                <div className="w-12 h-12 bg-bordeaux/20 rounded-full flex items-center justify-center">
+                  <Church className="text-bordeaux" size={24} />
                 </div>
                 <div>
-                  <h3 className="font-montaga text-2xl text-charcoal font-light">Rendez-vous</h3>
+                  <h3 className="font-montaga text-2xl text-charcoal font-light">La cérémonie</h3>
                   <p className="text-bordeaux/70 font-light">Samedi 29 août à 10h30</p>
                 </div>
               </div>
               
               <div className="prose text-charcoal/80 leading-relaxed space-y-4 font-light">
                 <p>
-                  Nous nous retrouverons <strong className="text-bordeaux font-medium">samedi 29 août à 10h30</strong> devant l'église Saint-Pierre de Carquefou.
+                  Nous nous retrouverons devant l'église Saint-Pierre de Carquefou.
                 </p>
                 
                 <div className="bg-blush/15 rounded-xl p-6 border-l-4 border-blush my-6">
                   <p className="mb-3">
-                    <strong className="text-charcoal font-medium">Le rang de gauche</strong> sera réservé à la famille.
+                    <strong className="text-charcoal font-medium">Le rang de gauche</strong> sera réservé à la famille du marié.
                   </p>
                   <p>
-                    <strong className="text-charcoal font-medium">Le rang de droite</strong> sera réservé aux amis proches.
+                    <strong className="text-charcoal font-medium">Le rang de droite</strong> sera réservé à la famille de la mariée.
                   </p>
                 </div>
               </div>
@@ -141,7 +141,7 @@ const Ceremony = () => {
                   Nous vous demandons également de <strong className="text-bordeaux font-medium">limiter les photos</strong> sur le reste de la journée.
                 </p>
                 
-                <div className="text-center bg-sage/15 rounded-xl p-6 my-6">
+                <div className="text-center bg-blush/15 rounded-xl p-6 my-6">
                   <p className="italic text-bordeaux font-light leading-relaxed">
                     Promis, on vous partagera tout ça après le mariage.<br />
                     On compte sur vous pour être sages !

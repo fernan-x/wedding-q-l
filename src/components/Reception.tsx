@@ -99,16 +99,16 @@ const Reception = () => {
               </div>
               <div className="space-y-4 text-charcoal">
                 <div className="flex justify-between items-center py-3 border-b border-sage/20">
-                  <span className="font-light text-lg text-bordeaux">12h30</span>
-                  <span className="font-light">Vin d'honneur</span>
+                  <span className="font-light text-lg text-bordeaux">10h30</span>
+                  <span className="font-light">Cérémonie</span>
                 </div>
                 <div className="flex justify-between items-center py-3 border-b border-sage/20">
-                  <span className="font-light text-lg text-bordeaux">Après-midi</span>
+                  <span className="font-light text-lg text-bordeaux">14h30</span>
                   <span className="font-light">Repas</span>
                 </div>
                 <div className="flex justify-between items-center py-3">
-                  <span className="font-light text-lg text-bordeaux">Soirée</span>
-                  <span className="font-light">Soirée dansante</span>
+                  <span className="font-light text-lg text-bordeaux">19h00</span>
+                  <span className="font-light">Bal</span>
                 </div>
               </div>
             </div>
