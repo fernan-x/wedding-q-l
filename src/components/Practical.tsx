@@ -57,9 +57,9 @@ const Practical = () => {
               <li>• Dortoir lit simple</li>
             </ul>
             <div className="bg-bordeaux/15 rounded-xl p-5 mb-5 border border-bordeaux/20">
-              <p className="font-medium text-bordeaux text-lg mb-2">Prix d'une chambre ou d'un couchage : 40€ a 220€</p>
+              <p className="font-medium text-bordeaux text-lg mb-2">Prix d'une chambre ou d'un couchage : 40€ à 220€</p>
               <div className="space-y-1 text-charcoal/70 font-light text-sm">
-                <p>• Vendredi soir aussi possible</p>
+                <p>• Vendredi soir possible</p>
                 <p>• Serviettes de douche incluses</p>
               </div>
             </div>
@@ -76,11 +76,11 @@ const Practical = () => {
               <div className="w-12 h-12 bg-bordeaux/20 rounded-full flex items-center justify-center">
                 <Coffee className="text-bordeaux" size={24} />
               </div>
-              <h3 className="font-montaga text-2xl text-charcoal font-light">...brunchons tous ensemble.</h3>
+              <h3 className="font-montaga text-2xl text-charcoal font-light">Brunch</h3>
             </div>
             <p className="text-sm text-bordeaux/70 mb-4 uppercase tracking-wider font-light">Dimanche retour</p>
             <p className="text-charcoal leading-relaxed font-light">
-              <strong className="text-bordeaux font-medium">Dimanche dès 10h30</strong>, brunch tous ensemble. Piscine à disposition — pensez à vos maillots et serviettes !
+              <strong className="text-bordeaux font-medium">Dimanche dès 10h30</strong>, brunchons tous ensemble. Piscine à disposition — pensez à vos maillots et serviettes !
             </p>
           </div>
 
@@ -93,18 +93,18 @@ const Practical = () => {
               <h3 className="font-montaga text-2xl text-charcoal font-light">Cagnottes</h3>
             </div>
             <div className="space-y-4">
+              <p className="text-charcoal/70 mt-5 font-light">
+                Deux cagnottes sur place le jour J. À vous de choisir!
+              </p>
               <div className="flex items-center gap-3 p-5 bg-blush/15 rounded-xl border border-blush/20">
                 <div className="w-3 h-3 bg-blush rounded-full"></div>
                 <span className="font-light text-charcoal">"À l'aventure"</span>
               </div>
-              <div className="flex items-center gap-3 p-5 bg-sage/15 rounded-xl border border-sage/20">
-                <div className="w-3 h-3 bg-sage rounded-full"></div>
+              <div className="flex items-center gap-3 p-5 bg-bordeaux/15 rounded-xl border border-bordeaux/20">
+                <div className="w-3 h-3 bg-bordeaux rounded-full"></div>
                 <span className="font-light text-charcoal">"À la maison"</span>
               </div>
             </div>
-            <p className="text-charcoal/70 mt-5 font-light">
-              Deux cagnottes sur place le jour J. À vous de choisir!
-            </p>
           </div>
         </div>
       </div>

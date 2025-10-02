@@ -1,6 +1,8 @@
 import { Phone, Users } from 'lucide-react';
 import FABIEN_IMG from '../assets/fabien.webp';
 import AYMERIC_IMG from '../assets/aymeric.webp';
+import MARIE_IMG from '../assets/marie.webp';
+import MANON_IMG from '../assets/manon.webp';
 
 const BridalParty = () => {
   const bridalParty = [
@@ -8,29 +10,33 @@ const BridalParty = () => {
       name: "Manon Corbel",
       role: "Témoin de la mariée",
       phone: "+33 6 34 96 16 60",
-      image: "https://images.unsplash.com/photo-1506863530036-1efeddceb993?q=80&w=1488&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      type: "bridesmaid"
+      image: MANON_IMG,
+      type: "bridesmaid",
+      additionalClass: "object-[center_55%]",
     },
     {
       name: "Fabien Fernandes Alves",
       role: "Témoin du marié",
       phone: "+33 6 52 07 82 01",
       image: FABIEN_IMG,
-      type: "groomsman"
+      type: "groomsman",
+      additionalClass: "object-[center_15%]",
     },
     {
       name: "Marie Pineau",
       role: "Témoin de la mariée",
       phone: "+33 6 45 90 24 68",
-      image: "https://images.unsplash.com/photo-1551712640-7340258d5c87?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      type: "bridesmaid"
+      image: MARIE_IMG,
+      type: "bridesmaid",
+      additionalClass: "object-[center_15%]",
     },
     {
-      name: "Aymeric",
+      name: "Aymeric Poirier",
       role: "Témoin du marié",
       phone: "+33 6 21 81 65 19",
       image: AYMERIC_IMG,
-      type: "groomsman"
+      type: "groomsman",
+      additionalClass: "object-[center_35%]",
     }
   ];
 
@@ -67,7 +73,7 @@ const BridalParty = () => {
                     <img 
                       src={person.image}
                       alt={person.name}
-                      className="w-full h-48 object-cover rounded-lg"
+                      className={`w-full h-48 object-cover rounded-lg ${person?.additionalClass}`}
                     />
                   </div>
                   <div className={`absolute -top-3 -right-3 bg-${person.type === 'bridesmaid' ? 'blush' : 'sage'}/20 p-3 rounded-full shadow-md transform ${index % 2 === 0 ? 'rotate-12' : '-rotate-12'} group-hover:rotate-0 transition-transform duration-300`}>
